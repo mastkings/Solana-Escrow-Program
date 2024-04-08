@@ -1,5 +1,7 @@
-import * as anchor from "@coral-xyz/anchor";
-import { Program } from "@coral-xyz/anchor";
+//import * as anchor from "@coral-xyz/anchor";
+//import { Program } from "@coral-xyz/anchor";,
+import * as anchor from "@project-serum/anchor";
+import { Program } from "@project-serum/anchor";
 import { SolanaEscrowProgram } from "../target/types/solana_escrow_program";
 import { PublicKey, Keypair } from "@solana/web3.js";
 import assert from "assert";
